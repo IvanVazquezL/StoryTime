@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>StoryTime - Secret of the Heart</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lateef&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="title text-center pt-5">
+      <h1>Secret of the Heart</h1>
+    </div>
+    <div class="pt-5">
+      <div class="container">
+  <div class="row">
+    <div class="paragraph col-12">
+      <h1>
+        Once upon a time, in a land far far away, a little
+        <select name="gender" id=1 onchange="getGender(value,id)">
+    <option selected="true" disabled="disabled">Select</option>
+    <option value="boy">boy</option>
+    <option value="girl">girl</option>
+  </select>
+  <span class="hidden hidden2-1">
+    named
+  <select name="name" id=2 onchange="getName(value,id)">
+<option selected="true" disabled="disabled">Select</option>
+<option value="Christophus">Christophus</option>
+<option value="Alex">Alex</option>
+<option value="Kyle">Kyle</option>
+</select>
+</span>
+
+<span class="hidden hidden2-2">
+  named
+<select name="name" id=3 onchange="getName(value,id)">
+<option selected="true" disabled="disabled">Select</option>
+<option value="Dawn">Dawn</option>
+<option value="June">June</option>
+<option value="Emily">Emily</option>
+</select>
+</span>
+
+<span class="hidden hidden3-1">
+  lived in the kingdom of
+<select name="kingdom" id=4 onchange="getKingdom(value,id)">
+<option selected="true" disabled="disabled">Select</option>
+<option value="Alicant">Alicant</option>
+<option value="Gardor">Gardor</option>
+<option value="Merona">Merona</option>
+</select>.
+</span>
+
+<span class="hidden hidden4-1">
+  <span id=5>He was the prince, heir to the throne of</span>
+</span>
+
+<span class="hidden hidden4-2">
+<span id =6>  She was the princess, heiress to the throne of</span>
+</span>
+
+<span class="hidden hidden5-1">
+<span id=7>  Alicant.</span>
+</span>
+
+<span class="hidden hidden5-2">
+<span id=8>  Gardor.</span>
+</span>
+
+<span class="hidden hidden5-3">
+<span id=9>  Merona.</span>
+</span>
+
+<span class="hidden hidden6-1">
+<span id=10>  And he was always followed by his faithful </span>
+</span>
+
+<span class="hidden hidden6-2">
+<span id=11>  And she was always followed by her faithful </span>
+</span>
+
+<span class="hidden hidden7-1">
+<select name="animal" id=12 onchange="getAnimal(value,id)">
+<option selected="true" disabled="disabled">Select</option>
+<option value="dog">dog</option>
+<option value="cat">cat</option>
+</select>
+</span>
+
+<span class="hidden hidden8-1">
+named <select name="animal" id=13 onchange="getAnimalName(value,id)">
+<option selected="true" disabled="disabled">Select</option>
+<option value="Shiloh">Shiloh</option>
+<option value="James">James</option>
+<option value="Paws">Paws</option>
+<option value="Whiskers">Whiskers</option>
+</select>.
+</span>
+
+
+</h1>
+<div class="hidden buttonCreate text-center pt-4">
+  <button type="button" class="btn btn-info"><h2>Create Story</h2></button>
+</div>
+    </div>
+  </div>
+  </div>
+</div>
+    </div>
+<script src="app.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

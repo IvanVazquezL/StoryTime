@@ -1,0 +1,29 @@
+.title{
+  font-family: 'Bad Script', cursive;
+}
+
+.paragraph{
+  font-family: 'Lateef', cursive;
+}
+
+select{
+  height: 55px
+}
+
+.hidden{
+  display:none
+}
+
+.hidden2-1,.hidden2-2,.hidden3-1,.hidden4-1,.hidden4-2,.hidden5-1,.hidden5-2,.hidden5-3,.hidden6-1,
+.hidden6-2,.hidden7-1,.hidden8-1,.buttonCreate{
+  animation: fadein 2s;
+}
+
+button{
+  height: 50px;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
